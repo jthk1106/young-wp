@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-        <h2 class="page-heading">All Projects</h2>
+        <h2 class="page-heading">My Projects</h2>
 
         <section>
 

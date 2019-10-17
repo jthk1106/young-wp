@@ -3,14 +3,17 @@
 <?php get_header(); ?>
 
     <div id="banner">
-        <h1>&lt;JK/&gt;</h1>
-        <h3>Learn coding from scratch</h3>
+        <h1>WORDPRESS<br>CUSTOM THEME</h1>
+        <br>
+        <h3>by Jeremy Kim</h3>
     </div>
 
     <main>
-        <a href="<?php echo site_url("/blog"); ?>">
-            <h2 class="section-heading">All Blogs</h2>
-        </a>
+        <div style="text-align: center; padding: 20px;">
+            <a href="<?php echo site_url("/blog"); ?>">
+                <h2 class="section-heading">THE BLOG</h2>
+            </a>
+        </div>
 
         <section>
 
@@ -50,8 +53,13 @@
             ?>
 
         </section>
+        <hr>
 
-        <h2 class="section-heading">All Projects</h2>
+        <div style="text-align: center; padding: 20px;">
+            <a href="<?php echo site_url("/projects"); ?>">
+                <h2 class="section-heading">MY PROJECTS</h2>
+            </a>
+        </div>
 
         <section>
 
@@ -91,8 +99,11 @@
             ?>
 
         </section>
+        <hr>
 
-        <h2 class="section-heading">Source Code</h2>
+        <div style="text-align: center; padding: 20px;">
+            <h2 class="section-heading">SOURCE CODE</h2>
+        </div>
 
         <section id="section-source">
             <p>

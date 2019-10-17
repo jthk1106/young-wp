@@ -3,7 +3,7 @@
 // adding the CSS and JS files 
 
 function jkSetup() {
-    wp_enqueue_style('google-fonts', '//fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Mono&display=swap');
+    wp_enqueue_style('google-fonts', '//fonts.googleapis.com/css?family=Aleo|Anton|Oswald|Montserrat|Raleway|Roboto|Roboto+Condensed|Roboto+Mono&display=swap');
     wp_enqueue_style('font-awesome', '//use.fontawesome.com/releases/v5.1.0/css/all.css');
     // this function connects the css
     // 1st parameter is whatever you want to name the css file
@@ -11,7 +11,7 @@ function jkSetup() {
     // 3rd is dependencies of the css file
     // 4th is your version number of the file as a string; you can manually update every new version you put out; "microtime()" returns the current time in microseconds as an alternative
     // 5th is what devices will be supported
-    wp_enqueue_style('style', get_stylesheet_uri());
+    wp_enqueue_style('style', get_stylesheet_uri(), NULL, microtime());
     
     // 'get_theme_file_uri()' is a php function that returns the root folder of the theme and the string passed will target inside of there
     // the above method can be used to also get the css file if it's named differently than style.css 

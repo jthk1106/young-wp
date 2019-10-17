@@ -47,7 +47,7 @@
                     </ul>
                 </div>
             </div>
-            <p>This website is developed by JK</p>
+            <p class="copyright-statement">© 2019 Jeremy Kim</p>
 
         </footer>
     </main>

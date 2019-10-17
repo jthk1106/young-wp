@@ -2,7 +2,7 @@
 
 <?php get_header(); ?>
 
-        <h2 class="page-heading">All Blogs</h2>
+        <h2 class="page-heading">The Blog</h2>
 
         <section>
 
